@@ -1,4 +1,5 @@
-// Mensaje que aparece en la consola cuando se carga la página
-document.addEventListener('DOMContentLoaded', () => {
-  console.log('Página cargada correctamente.');
+document.addEventListener("DOMContentLoaded", () => {
+  const peliculas = document.querySelectorAll(".pelicula");
+  peliculas.forEach(p => p.style.cursor = "pointer");
+  console.log("Pixel Cinema 2025 inicializado");
 });
